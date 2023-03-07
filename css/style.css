@@ -11,6 +11,7 @@ body{
 	align-items: center;
 	background: #1F2937;
 	color: white;
+	padding-top: 70px;
 }
 .logo{
 	font-size: 36px;
@@ -23,63 +24,92 @@ body{
 }
 
 /*MAIN*/
+/*
 .main{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
+*/
+
 
 /*CONTENT1*/
 .content1{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	background: #1f2937;
 	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .content1left{
-	display: flex;
-	flex-direction: column;
+	max-width: 445px;
+	margin-left: 300px;
 }
+.awesometitle{
+	text-align: center;
+}
+.awesometext{
+	text-align: center;
+}
+.awesomebutton{
+	padding: 5px 50px;
+	margin-left: 150px;
+	margin-bottom: 10px;
+}
+
 .content1right{
-	width: 500px;
-	height: 500px;
+	padding: 100px;
+	margin-left: 15px;
+	margin-right: 300px;
 	background: #6d747d; 
+	text-align: center;
 }
 
 
 /*CONTENT2*/
 .content2{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	background: #ffffff;
+}
+.content2 h1{
+	text-align: center;
 }
 .subcontent2{
 	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .info{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	max-width: 200px;
+	padding: 10px;
+	margin: 10px;
 }
 
 /*CONTENT3*/
 .content3{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	padding: 75px 750px;
 	background: #E5E7EB;
 	font-style: italic;
 }
 
+.quoteauthor{
+	font-weight: bold;
+	text-align: right;
+	font-size: 20px;
+	padding-top: 0px;
+	margin-top: -25px;
+}
 
 /*CONTENT4*/
 .content4{
 	display: flex;
 	align-items:center;
 	justify-content: center;
+	padding: 50px;
+}
+.content4box{
 	background: #ffffff;
 }
 .content4left{
@@ -87,11 +117,27 @@ body{
 	flex-direction: column;
 }
 .content4right{
+	padding: 5px 50px;
+	margin-left: 500px;
+	margin-bottom: 10px;
+	margin-right: 15px;
 }
 .content4left,
 .content4right{
 	color: white;
 	background: #3b82f6
+}
+.signupheader{
+	padding: 10px;
+	margin: 0px 2px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.signupsubtext{
+	font-size: 15px;
+	padding: 0px 15px;
+	margin-top: 0px;
+	margin-bottom: 10px;
 }
 
 /*FOOTER*/
