@@ -1,13 +1,18 @@
 
+html{
+	margin: 100px;	
+}
 
 body{
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	margin: 0;
 }
 
 .main{
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -20,6 +25,27 @@ body{
 .content3,
 .content4{
 	flex:1;
+	width: 100%;
+}
+
+/*colors for debugging*/
+.header{
+	background: green;
+}
+.content1{
+	background: green;
+}
+.content2{
+	background: blue;
+}
+.content3{
+	background: yellow;
+}
+.content4{
+	background: red;
+}
+.footer{
+	background: red;
 }
 
 .header{
@@ -60,11 +86,14 @@ body{
 	justify-content: center;
 }
 
+}
+
 .content4left{
 	display: flex;
 	flex-direction: column;
 }
 .content4right{
+	display: block;
 }
 
 .footer{
