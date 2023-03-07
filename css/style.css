@@ -8,13 +8,20 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	margin: 0;
+	font-style: Sans-serif;
 }
+
 
 /*HEADER*/
 .header{
 	display: flex;
 	justify-content: space-between;
 	background: #1F2937;
+	color: white;
+}
+.header a{
+	text-decoration: none;
+	color: white;
 }
 
 /*MAIN*/
@@ -32,6 +39,7 @@ body{
 	justify-content: space-between;
 	align-items: center;
 	background: #1f2937;
+	color: white;
 }
 
 /*CONTENT2*/
@@ -74,6 +82,7 @@ body{
 }
 .content4left,
 .content4right{
+	color: white;
 	background: #3b82f6
 }
 
@@ -92,4 +101,5 @@ body{
 	align-items: end;
 	justify-content: center;
 	background: #1F2937;
+	color: white;
 }
